@@ -1,8 +1,99 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
 {
- clrscr();
- printf("hello");
- getch();
+  "input": {
+    "text": "hi"
+  },
+  "context": {
+    "conversation_id": "00ec02b6-78e1-4158-a901-e41607447f32",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 10,
+      "dialog_request_counter": 10,
+      "_node_output_map": {
+        "Start And Initialize Context": [
+          0,
+          0
+        ],
+        "node_11_1468608786372": [
+          0
+        ],
+        "node_1_1487280368483": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    },
+    "AConoff": "off",
+    "lightonoff": "off",
+    "musiconoff": "off",
+    "appl_action": "on",
+    "heateronoff": "off",
+    "volumeonoff": "off",
+    "wipersonoff": "off",
+    "default_counter": 0
+  }
+}
+
+
+
+
+
+{
+  "intents": [
+    {
+      "intent": "greetings",
+      "confidence": 1
+    }
+  ],
+  "entities": [],
+  "input": {
+    "text": "hi"
+  },
+  "output": {
+    "text": [
+      "Hello! I'm doing good. I'm here to help you. Just say the word."
+    ],
+    "nodes_visited": [
+      "node_7_1468608329601"
+    ],
+    "log_messages": []
+  },
+  "context": {
+    "conversation_id": "00ec02b6-78e1-4158-a901-e41607447f32",
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ],
+      "dialog_turn_counter": 11,
+      "dialog_request_counter": 11,
+      "_node_output_map": {
+        "Start And Initialize Context": [
+          0,
+          0
+        ],
+        "node_11_1468608786372": [
+          0
+        ],
+        "node_1_1487280368483": [
+          0
+        ]
+      },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    },
+    "AConoff": "off",
+    "lightonoff": "off",
+    "musiconoff": "off",
+    "appl_action": "on",
+    "heateronoff": "off",
+    "volumeonoff": "off",
+    "wipersonoff": "off",
+    "default_counter": 0
+  }
 }
